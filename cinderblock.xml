@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="SexyWidgets"
+	id="com.y3i12.SexyWidgets"
+	author="Yuri Ivatchkovitch/Popcap"
+	summary="PopCap's SexyApp Framework Widget System"
+	git="https://github.com/y3i12/SexyWidgets.git"
+	license="OTHER"
+	version="0.0.1"
+	libraryUrl="http://y3i12.com/blog/sexywidget/"
+	>
+	
+	<headerPattern>include/*.h</headerPattern>
+	<sourcePattern>src/*.cpp</sourcePattern>
+
+	<platform os="msw">
+		<includePath system="false">include</includePath>
+	</platform>
+
+</block>
+</cinder>
